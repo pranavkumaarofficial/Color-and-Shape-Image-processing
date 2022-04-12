@@ -10,6 +10,6 @@ Output is not as expected yet
 
 # Readme Needs to be updated
 
-Majorly HardCoded by myself  
+Majorly written and coded by myself  
 References - Class Notes and Medium
 Note : Image path needs to be changed for the code to run.
