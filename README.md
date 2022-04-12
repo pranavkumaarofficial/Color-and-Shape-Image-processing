@@ -8,7 +8,7 @@ Make a program such that the output contains a list having all shapes with their
 
 Output is not as expected yet 
 
-# Readme Needs to be updated
+# README file needs to be updated
 
 Majorly written and coded by myself  
 References - Class Notes and Medium
