@@ -27,9 +27,8 @@ def AppendLists(b,a):
 global imageFrame
 
     
-def ColorDetection():
+def ColorDetection(imageFrame):
  
-    global imageFrame
 
     #imageFrame = cv2.imread("C:\\Users\\Pranav\\Desktop\\SkillDev\\IEEE CS\\Image Processing\\ieee1.jpeg")  
 
@@ -225,7 +224,7 @@ for contour in contours:
     x = approx.ravel()[0]
     y = approx.ravel()[1] - 5
     
-    k=ColorDetection()
+    k=ColorDetection(img)
     #print(k)
     AddToList(a, k)
             
@@ -254,11 +253,11 @@ for contour in contours:
         cv2.putText(img, "circle", (x, y), cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 0))
         AddToList(a, "Circle")
         
-    print(a)
+    #print(a)
         
-AppendLists(res, a) 
+    AppendLists(res, a) 
      
-     
+print(res)    
 cv2.imshow('shapes', img)
 
 cv2.waitKey(0)
